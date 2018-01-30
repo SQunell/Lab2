@@ -34,7 +34,7 @@ public class SolveMaze {
          * Feel free to adjust this number if you experiment with other mazes.
          */
         boolean random = false;
-        for (int step = 0; step < 1000; ) {
+        for (int step = 0; step < 10000; ) {
             // Implement your maze solving algorithm here
             if (random == true) {
                 if (maze.canMove()) {
